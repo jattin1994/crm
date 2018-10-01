@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>Sub Admin</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style Core CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Animate Core CSS -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <!-- Hover Core CSS -->
+    <link href="assets/css/hover.css" rel="stylesheet">
+    <!-- Bootstrap Select Picker -->
+    <link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Bootstrap Date Picker -->
+    <link href="assets/css/datepicker.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom checkbox for this template -->
+    <link href="assets/css/pretty-checkbox.css" rel="stylesheet" type="text/css" />
+    <!-- layout css -->
+    <link href="assets/css/dashboard.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/dropzone.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Page wrapper start here -->
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="admin-header">
+            <a href="javascript:void(0)" class="toggle-btn"><span></span><span></span><span></span></a>
+            <div class="logo"><img src="assets/images/admin-logo.png" alt=""></div>
+            <ul class="right-sec">
+                <li>
+                    <a href="javascript:void(0)" class="notify-wrap">
+                        <img src="assets/images/notification.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="profile-wrap">
+                        <figure><img src="assets/images/user.jpg" alt=""></figure>
+                        <span>john doe</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <!-- Header End -->
+        <aside class="sidebar">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="active">
+                        <span class="icon">
+                            <svg viewBox="0 0 384 384" width="16px" height="16px">                                        
+                                <rect class="s1" x="213.333" y="0" width="170.667" height="128"/>
+                                <rect class="s1" x="0" y="0" width="170.667" height="213.333"/>
+                                <rect class="s1" x="0" y="256" width="170.667" height="128"/>
+                                <rect class="s1" x="213.333" y="170.667" width="170.667" height="213.333"/>                                       	
+                            </svg>                                
+                        </span> Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="icon">
+                            <svg viewBox="0 0 384 384" width="16px" height="16px">                                        
+                                <rect class="s1" x="213.333" y="0" width="170.667" height="128"/>
+                                <rect class="s1" x="0" y="0" width="170.667" height="213.333"/>
+                                <rect class="s1" x="0" y="256" width="170.667" height="128"/>
+                                <rect class="s1" x="213.333" y="170.667" width="170.667" height="213.333"/>                                       	
+                            </svg>                                
+                        </span> Sales
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="icon">
+                            <svg viewBox="0 0 384 384" width="16px" height="16px">                                        
+                                <rect class="s1" x="213.333" y="0" width="170.667" height="128"/>
+                                <rect class="s1" x="0" y="0" width="170.667" height="213.333"/>
+                                <rect class="s1" x="0" y="256" width="170.667" height="128"/>
+                                <rect class="s1" x="213.333" y="170.667" width="170.667" height="213.333"/>                                       	
+                            </svg>                                
+                        </span> Submit New Business </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="icon">
+                            <svg viewBox="0 0 384 384" width="16px" height="16px">                                        
+                                <rect class="s1" x="213.333" y="0" width="170.667" height="128"/>
+                                <rect class="s1" x="0" y="0" width="170.667" height="213.333"/>
+                                <rect class="s1" x="0" y="256" width="170.667" height="128"/>
+                                <rect class="s1" x="213.333" y="170.667" width="170.667" height="213.333"/>                                       	
+                            </svg>                                
+                        </span> Sales Material & Forms </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <span class="icon">
+                            <svg viewBox="0 0 384 384" width="16px" height="16px">                                        
+                                <rect class="s1" x="213.333" y="0" width="170.667" height="128"/>
+                                <rect class="s1" x="0" y="0" width="170.667" height="213.333"/>
+                                <rect class="s1" x="0" y="256" width="170.667" height="128"/>
+                                <rect class="s1" x="213.333" y="170.667" width="170.667" height="213.333"/>                                       	
+                            </svg>                                
+                        </span> Notifications </a>
+                </li>
+
+            </ul>
+        </aside>
+        <div class="center-wrapper">
+            <div class="center-inner">
+                <h2 class="heading withicon"><img class="icon" src="assets/images/briefcase.svg" alt=""> Submit New Business </h2>
+                <ul class="switch-tab clearfix">
+                    <li>
+                        <a href="javascript:void(0)" data-target="tab_1" class="completed"><span>1</span>  Client Information  </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" data-target="tab_2" class="active"><span>2 </span> Sales Information </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" data-target="tab_3"><span> 3</span> Upload Documents </a>
+                    </li>
+                </ul>
+                <!--  switch-tab end -->
+                <div class="form-wrapper">
+                    <div class="row tabs-container" id="tab_1" style="display:none">
+                        <form action="">
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Name :</span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" value="John Doe" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Social Security :</span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Phone :</span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Addional Phone : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Email : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Addional Email : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Birthday : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Address 1 : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Address 2 : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Country : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <select name="" id="" class="selectpicker">
+                                        <option value="0"> Select </option>
+                                        <option value="1"> option 1 </option>
+                                        <option value="2"> option 1 </option>
+                                        <option value="3"> option 1 </option>
+                                        <option value="4"> option 1 </option>
+                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">State : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <select name="" id="" class="selectpicker">
+                                        <option value="0"> Select </option>
+                                        <option value="1"> option 1 </option>
+                                        <option value="2"> option 1 </option>
+                                        <option value="3"> option 1 </option>
+                                        <option value="4"> option 1 </option>
+                                    </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">City : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Zip : </span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="btn-wrap col-sm-3">
+                                <button type="button" class="custom-btn mr15">Cancel</button>
+                                <button type="button" class="custom-btn fill">Continue</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- tabs _ 1-->
+                    <div class="row tabs-container" id="tab_2" style="display:none">
+                        <form action="">
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Sales Amount :</span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="input-wrap">
+                                        <input type="text" value="John Doe" name="" id="" class="input-class">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-3"> <span class="element-name">Type of Sale :</span></div>
+                                <div class="col-xs-12 col-sm-5">
+                                    <div class="inputfield-wrap qualified-radio radio-btn">
+                                        <label class="radio-inline"><input type="radio" value="Qualified" name="optradio">Qualified</label>
+                                        <label class="radio-inline"><input type="radio" value="Non-Qualified"  name="optradio">Non-Qualified</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="qualified" class="qual-non-qual-wrap">
+                                <div class="form-group">
+                                    <div class="col-xs-12 col-sm-3"> <span class="element-name">Custodian name : </span></div>
+                                    <div class="col-xs-12 col-sm-5">
+                                        <div class="input-wrap">
+                                            <select name="" id="" class="selectpicker">
+                                                    <option value="0"> Select </option>
+                                                    <option value="1"> option 1 </option>
+                                                    <option value="2"> option 1 </option>
+                                                    <option value="3"> option 1 </option>
+                                                    <option value="4"> option 1 </option>
+                                                </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12 col-sm-3"> <span class="element-name">Funding Methord : </span></div>
+                                    <div class="col-xs-12 col-sm-5">
+                                        <div class="input-wrap">
+                                            <select name="" id="" class="selectpicker">
+                                                        <option value="0"> Select </option>
+                                                        <option value="1"> option 1 </option>
+                                                        <option value="2"> option 1 </option>
+                                                        <option value="3"> option 1 </option>
+                                                        <option value="4"> option 1 </option>
+                                                    </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Non-Qualified" class="qual-non-qual-wrap">
+                                <div class="form-group">
+                                    <div class="col-xs-12 col-sm-3"> <span class="element-name">Funding Methord : </span></div>
+                                    <div class="col-xs-12 col-sm-5">
+                                        <div class="input-wrap">
+                                            <select name="" id="" class="selectpicker">
+                                                            <option value="0"> Select </option>
+                                                            <option value="1"> option 1 </option>
+                                                            <option value="2"> option 1 </option>
+                                                            <option value="3"> option 1 </option>
+                                                            <option value="4"> option 1 </option>
+                                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="btn-wrap col-sm-3">
+                                <button type="button" class="custom-btn mr15">Back</button>
+                                <button type="button" class="custom-btn fill">Continue</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- tabs _ 2-->
+                    <div class="row tabs-container" id="tab_3" style="display:block">
+                        <div id="Dropzone" class="dropzone">
+                            <div class="dz-default dz-message"><span class="text"> <span class="text-uppercase">Drag and drop photos, <br> or click to upload From the system </span> </span>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="btn-wrap col-sm-12">
+                            <button type="button" class="custom-btn mr15">Back</button>
+                            <button type="button" class="custom-btn fill">Submit New Business</button>
+                        </div>
+                    </div>
+                    <!-- tabs _ 3-->
+                </div>
+                <!--  form-wrapper -->
+            </div>
+            <!--  center-inner -->
+        </div>
+        <!--  center-wrapper -->
+    </div>
+    <!-- Page wrapper end here -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap-select.js"></script>
+    <script src="assets/js/datepicker.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js"></script>
+    <script src="assets/js/sticky-table.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/date-validation.js"></script>
+    <script src="assets/js/dropzone.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".qualified-radio input[type='radio']").on("change", function() {
+                if ($(this).val() == "Qualified") {
+                    $("#qualified").show();
+                    $("#Non-Qualified").hide();
+                } else {
+                    $("#Non-Qualified").show();
+                    $("#qualified").hide();
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>

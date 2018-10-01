@@ -1,0 +1,329 @@
+@media all and (max-width: 990px) {
+    .sidebar {
+        left: -240px;
+    }
+    .center-wrapper {
+        width: 100%;
+        margin-left: 0;
+    }
+    .sidebar.left-panel-show {
+        left: 0;
+    }
+    .input-wrap.with-percent {
+        padding-right: 30px;
+    }
+    .input-wrap.with-percent:before {
+        right: 0;
+    }
+    .custom-btn {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    .heading {
+        font-size: 16px;
+    }
+    .heading.withicon .icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .overview-list li {
+        width: calc(33.3% - 10px);
+        margin: 10px 5px;
+        padding: 25px 10px;
+    }
+    .overview-list li .head {
+        font-size: 15px;
+        margin: 7px 0 0 4px;
+    }
+    .overview-list li .num {
+        font-size: 24px;
+        margin: 0 10px 0 0;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .heading.withicon .icon {
+        width: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .overview-list li {
+        width: calc(33.3% - 10px);
+        margin: 10px 5px;
+        padding: 25px 10px;
+    }
+    .overview-list li .head {
+        font-size: 15px;
+        margin: 7px 0 0 4px;
+    }
+    .overview-list li .num {
+        font-size: 24px;
+        margin: 0 10px 0 0;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .heading.withicon .icon {
+        width: 20px;
+    }
+    .materials-forms-list li a {
+        width: 140px;
+        padding: 13px 10px;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 1330px) {}
+
+@media all and (max-width: 767px) {
+    .sidebar {
+        position: fixed;
+        left: -240px;
+        top: 65px;
+        bottom: 0;
+        z-index: 9;
+        width: 240px;
+        background: #04244a;
+        -webkit-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+        transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .custom-btn.blank {
+        padding: 10px 5px;
+    }
+    .btn-left-space {
+        margin: 0 0 0 10px;
+    }
+    .custom-btn.mr15 {
+        margin-right: 10px;
+    }
+    .heading.withicon {
+        padding-left: 25px;
+    }
+    .switch-tab>li>a {
+        font-size: 12px;
+        text-align: center;
+    }
+    .breadcrumb {
+        padding: 0;
+    }
+    .agent-breadcrumb .breadcrumb .breadcrumb-item a:after {
+        margin: 0 0 0 8px;
+    }
+    .agent-breadcrumb .breadcrumb .breadcrumb-item .icon {
+        width: 16px;
+    }
+    .agent-breadcrumb .breadcrumb .breadcrumb-item {
+        font-size: 13px;
+        margin: 0 5px 0 0;
+        padding: 0 0 0 18px;
+    }
+    .sales-view-tab-navi li a {
+        padding: 8px 10px;
+        font-size: 11px;
+        line-height: 1.2;
+        display: table-cell;
+        width: 500px;
+        height: 45px;
+        vertical-align: middle;
+    }
+    .details-heads .name {
+        font-size: 16px;
+        margin: 0 10px 0 0;
+    }
+    .status-sec {
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+    .sales-view-details label,
+    .sales-view-details .text {
+        font-size: 14px;
+    }
+    .para {
+        font-size: 13px;
+    }
+    .admin-header .logo {
+        margin-left: 0;
+    }
+    #uploadfiles {
+        cursor: pointer;
+        border: 2px dashed #dadbdf;
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+    .dropzone {
+        padding: 24px 15px;
+    }
+    .overview-list li {
+        width: calc(50% - 10px);
+        margin: 5px;
+        padding: 18px 10px;
+    }
+    .overview-list li .num {
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        margin: 5px 0 0 0;
+    }
+    .overview-list li .head {
+        font-size: 12px;
+        margin: 0;
+        width: 100%;
+    }
+    .table-search-wrap {
+        left: 0;
+        position: relative;
+        transform: none;
+        width: 100%;
+        margin: 15px 0;
+        float: left;
+    }
+    .custom-btn {
+        margin-bottom: 10px;
+    }
+    .sale-pdf-list li .pdf-file .upcname,
+    .sale-pdf-list li .pdf-file .upcdate {
+        font-size: 12px;
+    }
+    .sale-pdf-list li .pdf-file .upcname {
+        margin-right: 32px;
+    }
+    .sale-pdf-list li .pdf-file .head {
+        font-size: 14px;
+    }
+    .sale-pdf-list li .pdf-file {
+        padding: 10px 0 0 27px;
+        width: 100%;
+    }
+    .sale-pdf-list li .pdf-file .pdfico {
+        left: 0;
+        top: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .pp-docwrap .pdfdwn {
+        float: left !important;
+        margin-top: 3px !important;
+    }
+    .materials-forms-list li a {
+        width: 140px;
+        padding: 13px 10px;
+        font-size: 13px;
+    }
+    .materials-forms-list {
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .materials-forms-list li {
+        float: none;
+        display: inline-block;
+    }
+    .sale-pdf-list li .pdf-file .upcname i,
+    .sale-pdf-list li .pdf-file .upcdate i {
+        display: none;
+    }
+    .sale-pdf-list li .pdfvew,
+    .sale-pdf-list li .pdfdwn {
+        margin-top: 3px;
+    }
+    .sale-pdf-list li .pdfvew {
+        margin-right: 20px;
+        float: left;
+    }
+    .agent-breadcrumb .breadcrumb .breadcrumb-item a.back {
+        margin: 0 0 0 -15px;
+    }
+    .notification-list-sec li a .name {
+        flex: 0 0 25px;
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+    .notification-list-sec li a .noti-details {
+        padding: 0 0 0 8px;
+    }
+    .notification-list-sec .head {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .notification-list-sec .pr {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .notification-list-sec li a .date {
+        font-size: 13px;
+        font-weight: 500;
+        text-align: right;
+        padding: 6px 0 0 0;
+    }
+    .notification-list-sec li .notific-close {
+        position: absolute;
+        top: -16px;
+        right: -9px;
+    }
+    .notification-list-sec li a {
+        position: relative;
+    }
+    div.dataTables_wrapper div.dataTables_info {
+        margin-bottom: 10px;
+    }
+    .pagination>li>a,
+    .pagination>li>span {
+        padding: 2px 8px;
+    }
+    .admin-header .logo img {
+        width: 85% !important;
+    }
+    .toggle-btn {
+        width: 120px;
+        padding: 15px 0;
+        margin: 0;
+    }
+    .admin-header .logo {
+        margin-left: 18px;
+    }
+    .admin-header {
+        padding: 0 15px;
+    }
+    .dataTables_length {
+        margin: -46px 0 10px 0;
+        text-align: right !important;
+    }
+    .center-inner {
+        margin: 10px 15px 0;
+    }
+    .dataTables_filter {
+        text-align: left !important;
+    }
+    .dataTables_filter label {
+        width: calc(100% - 52px);
+    }
+    .dataTables_filter input {
+        width: 100% !important;
+    }
+    .dataTables_wrapper .row:nth-child(2) .col-sm-12 table {
+        margin-top: 0 !important;
+    }
+    .sales-view-three-tabs li a {
+        height: 60px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .uploaddoc-wrapper .dataTables_length {
+        margin-top: 0;
+    }
+    .agent-sales-view-tab {
+        width: 100%;
+        float: left;
+    }
+    .client-info-wrapper .dataTables_length {
+        margin: 0;
+    }
+    .mob-tpmarg {
+        margin: 10px -20px 10px 0;
+    }
+}
